@@ -1,0 +1,19 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users 
+Content-Type: application/json
+
+{
+"user_name": "test@gmail.com", "user_pass": "1"
+}
+
+###
+
+POST http://localhost:3000/users/login 
+Content-Type: application/json
+
+{
+"user_name": "test@gmail.com", "user_pass": "1"
+}
